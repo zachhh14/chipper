@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { BiHomeCircle, BiUser } from "react-icons/bi";
 import { BsBell, BsEnvelope, BsThreeDots, BsTwitter } from "react-icons/bs";
 import { HiOutlineHashtag } from "react-icons/hi";
+import Link from "next/link";
 
 const NAVIGATION_ITEMS = [
   {
@@ -49,14 +49,14 @@ const LeftSideBar = () => {
         ))}
         <button
           className='rounded-full m-4 bg-primary p-4 text-center 
-              hover:bg-opacity-70 transition duration-200'
+            hover:bg-opacity-70 transition duration-200'
         >
           Tweet
         </button>
       </div>
       <button
         className='rounded-full flex items-center space-x-2 m-4 bg-transparent p-4 text-center 
-            hover:bg-white/10 transition duration-200 w-full justify-between'
+          hover:bg-white/10 transition duration-200 w-full justify-between'
       >
         <div className='flex items-center space-x-2'>
           <div className='rounded-full bg-slate-400 w-8 h-8'></div>
